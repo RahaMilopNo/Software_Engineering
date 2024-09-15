@@ -27,7 +27,7 @@
 - к.э.н., доцент Панов М.А.
 ## Задание №1
 ### Установка
-### ![Результат]
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_1/Pictures/Zadanie1.png)
 ## Вывод
 Установили стабильную версию Git для Windows
 ## Задание №2
