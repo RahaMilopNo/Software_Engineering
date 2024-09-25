@@ -32,7 +32,7 @@ def main():
 if __name__ == '__main__':
     main()
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_4/theme_4/screen/lab4_1.png)
 ## Вывод
 В этой задаче я научился создавать функции для выполнения арифметических операций и правильно использовать точку входа программы для её запуска.
 ## Задание №2
@@ -44,7 +44,7 @@ def main():
 if __name__ == '__main__':
     print(main())
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_4/theme_4/screen/lab4_2_1.png)
 ```python
 def main():
     result = 2 + 2
@@ -54,7 +54,7 @@ if __name__ == '__main__':
     answer = main()
     print(answer)
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_4/theme_4/screen/lab4_2_2.png)
 ## Вывод
 В этой задаче я научился возвращать результат арифметических операций через return и выводить его в консоль. 
 ## Задание №3
@@ -70,7 +70,7 @@ for i in range(5):
     answer = main(x , y)
     print(answer)
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_4/theme_4/screen/lab4_3_1.png)
 ```python
 def main(one , two):
     return one + two
@@ -79,7 +79,7 @@ for i in range(5):
     answer = main(one = 1, two = 10)
     print(answer)
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_4/theme_4/screen/lab4_3_2.png)
 ## Вывод
 В этой задаче я научился передавать аргументы в функцию, производить над ними арифметические действия и возвращать результат. Использовал цикл для многократного вызова функции и вывода результата в консоль.
 ## Задание №4
@@ -98,7 +98,7 @@ if __name__ == '__main__':
     result = main(10, 0, 1, 2, -1, 0, -1, 1, 2)
     print(f"\nresult={result}")
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_4/theme_4/screen/lab4_4.png)
 ## Вывод
 В этой задаче я научился работать с переменным количеством аргументов, используя кортежи *args.
 ## Задание №5
@@ -118,7 +118,7 @@ if __name__ == '__main__':
     print()
     main(**{'x': [1, 2, 3], 'y': [3, 3, 0]})
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_4/theme_4/screen/lab4_5.png)
 ## Вывод
 В этой задаче я научился работать с кортежем **kwargs, который позволяет передавать функции произвольное количество именованных аргументов.
 ## Задание №6
@@ -134,7 +134,7 @@ def mean(data):
 if __name__ == '__main__':
     main(x=[1, 2, 3], y=[3, 3, 0])
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_4/theme_4/screen/lab4_6.png)
 ## Вывод
 В этой задаче я научился создавать две функции, одна из которых принимает произвольное количество именованных аргументов через **kwargs, а вторая вычисляет среднее арифметическое из переданных значений.
 ## Задание №7
@@ -144,13 +144,13 @@ from for_import import say_hello
 if __name__ == '__main__':
     say_hello()
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_4/theme_4/screen/lab4_7.png)
 ### Дополнительный файл for_import.py
 ```python
 def say_hello():
     print('Hello students!')
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_4/theme_4/screen/for_import.png)
 ## Вывод
 В этой задаче я создал дополнительный файл, содержащий функцию, которая выводит сообщение в консоль. Я импортировал эту функцию в основной файл и вызвал её через точку входа.
 ## Задание №8
@@ -168,7 +168,7 @@ def main():
 if __name__ == '__main__':
     main()
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_4/theme_4/screen/lab4_8_1.png)
 ### Только 3 необходимые функции
 ```python
 from math import sqrt, sin, cos
@@ -182,7 +182,7 @@ def main():
 if __name__ == '__main__':
     main()
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_4/theme_4/screen/lab4_8_2.png)
 ### Загрузка всех функции с помощью оператора "*"
 ```python
 from math import *
@@ -196,7 +196,7 @@ def main():
 if __name__ == '__main__':
     main()
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_4/theme_4/screen/lab4_8_3.png)
 ## Вывод
 В этой задаче я использовал разные способы импорта модуля math: целиком, только необходимые функции и с помощью оператора *
 ## Задание №9
@@ -221,7 +221,7 @@ def main():
 if __name__ == '__main__':
     main()
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_4/theme_4/screen/lab4_9.png)
 ## Вывод
 Я использовал модули datetime и timedelta для работы с датами, что позволило мне эффективно вычислять и отображать результат.
 ## Задание №10
@@ -250,7 +250,7 @@ elif figure == '2':
 
 print(f"Площадь: {result}")
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_4/theme_4/screen/lab4_10.png)
 ## Вывод
 Я реализовал функции для расчета площадей, а также организовал получение необходимых данных через input(). Результатом программы является площадь выбранной фигуры, что демонстрирует использование глобальных переменных для обмена данными между функциями.
 
@@ -324,7 +324,7 @@ def roll_dice():
 if __name__ == '__main__':  
     roll_dice()  
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_4/theme_4/screen/sam4_2.png)
 ## Вывод
 Я использовал библиотеку random для генерации случайных чисел и организовал программу с одной функцией и точкой входа
 ## Задание №3
@@ -342,7 +342,7 @@ def five_seconds():
 if __name__ == '__main__':  
     five_seconds()  
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_4/theme_4/screen/sam4_3.png)
 ## Вывод
 В этой задаче я разработал программу, которая выводит текущее время с точностью до секунд в течение 5 секунд. Для этого я использовал модуль datetime для получения текущего времени и time для создания паузы между выводами. 
 ## Задание №4
@@ -358,7 +358,7 @@ def average(*args):
 if __name__ == '__main__': 
     average(10, 20, 30, 40) 
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_4/theme_4/screen/sam4_4.png)
 ## Вывод
 В этой задаче я создал программу для вычисления среднего арифметического переданных аргументов, при этом количество аргументов заранее неизвестно. Я использовал *args для передачи переменного числа аргументов в функцию. Программа проверяет, были ли переданы значения, и, если да, вычисляет и выводит среднее арифметическое. Если аргументы не переданы, выводится соответствующее сообщение.
 ## Задание №5
@@ -380,7 +380,7 @@ def main():
 if __name__ == '__main__':  
     main()  
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_4/theme_4/screen/sam4_5.png)
 ### Дополнительный файл
 ```python
 import math  
@@ -390,7 +390,7 @@ def heron_area(a, b, c):
     area = math.sqrt(s * (s - a) * (s - b) * (s - c)) 
     return area  
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_4/theme_4/screen/traingle_area.png)
 ## Вывод
 В этой задаче я создал два Python файла для вычисления площади треугольника по формуле Герона. В основном файле происходит взаимодействие с пользователем: запрашиваются длины сторон треугольника, после чего вызывается функция из дополнительного файла, которая и выполняет расчёт площади.
 ## Общие выводы по теме
