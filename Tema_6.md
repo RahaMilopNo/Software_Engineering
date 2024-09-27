@@ -10,12 +10,6 @@
 | Задание 3  | +       | + |
 | Задание 4  | +       | + |
 | Задание 5  | +       | + |
-| Задание 6  |        |  |
-| Задание 7  |       |  |
-| Задание 8  |       |  |
-| Задание 9  |       |  |
-| Задание 10 |        |  |
-
 
 знак "+" - задание выполнено; знак "-" - задание не выполнено;
 
@@ -44,7 +38,7 @@ key = response.get('key')
 access = response.get('access')
 print(key, access)
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_6/theme_6/screen/lab6_1.png)
 ## Вывод
 В данной работе я научился использовать словари для эффективной замены громоздких конструкций if/elif/else.
 
@@ -62,7 +56,7 @@ dict_maker(a1=1, a2=20, a3=54, a4=13)
 dict_maker(name='Михаил', age = 31, weight = 70, eyes_color = 'blue')
 pprint(my_dict)
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_6/theme_6/screen/lab6_2.png)
 ## Вывод
 В данной работе я научился использовать функцию **kwargs для передачи неограниченного количества именованных параметров и обновления словаря.
 
@@ -74,7 +68,7 @@ result = tuple(input_string)
 print(result)
 print(list(result))
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_6/theme_6/screen/lab6_3.png)
 ## Вывод
 В данной работе я научился использовать кортежи для посимвольного разделения строки.
 
@@ -90,7 +84,7 @@ personal_info(*tom)
 bob = ("Георгий", 41, "Yandex")
 personal_info(*bob)
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_6/theme_6/screen/lab6_4.png)
 ## Вывод
 В данной работе я научился использовать распаковку кортежей при передаче аргументов в функцию.
 
@@ -107,7 +101,7 @@ if __name__ == '__main__':
     print(tuple_sort((5, 5, 3, 1, 9)))
     print(tuple_sort((5, 5, 2.1, '1', 9)))
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_6/theme_6/screen/lab6_5.png)
 ## Вывод
 В данной работе я научился проверять типы элементов в кортеже и использовать функцию sorted() для сортировки.
 
@@ -124,7 +118,7 @@ num_tuple = tuple(num_list)
 print("Список:", num_list)
 print("Кортеж:", num_tuple)
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_6/theme_6/screen/sam6_1.png)
 ## Вывод
 В данной работе я научился обрабатывать пользовательский ввод и преобразовывать строку в список и кортеж.
 
@@ -151,7 +145,7 @@ print(removeFO((1, 2, 3), 1))
 print(removeFO((1, 2, 3, 1, 2, 3, 4, 5, 2, 3, 4, 2, 4, 2), 3))  
 print(removeFO((2, 4, 6, 6, 4, 2), 9))  
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_6/theme_6/screen/sam6_2.png)
 ## Вывод
 В данной работе я научился манипулировать кортежами и преобразовывать их в списки для изменения содержимого.
 
@@ -168,7 +162,7 @@ def top_three(s):
 
 print(top_three("723432741283931374238444812938144329841"))   
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_6/theme_6/screen/sam6_3.png)
 ## Вывод
 В данной работе я научился использовать модуль collections для эффективного подсчета элементов и формирования словарей.
 
@@ -201,7 +195,7 @@ print(entry_exit((1, 2, 3), 8))
 print(entry_exit((1, 8, 3, 4, 8, 8, 9, 2), 8))  
 print(entry_exit((1, 2, 8, 5, 1, 2, 9), 8))   
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_6/theme_6/screen/sam6_4.png)
 ## Вывод
 В данной работе я научился находить индексы элементов в кортеже и использовать их для извлечения подмассивов.
 
@@ -232,7 +226,7 @@ print(length(list_1))
 print(length(list_2)) 
 print(length(list_3))   
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_6/theme_6/screen/sam6_5.png)
 ## Вывод
 В данной работе я научился разделять данные на основе их свойств и использовать сортировку для организации информации.
 
