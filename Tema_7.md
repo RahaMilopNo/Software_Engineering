@@ -25,7 +25,7 @@
 ## Лабораторная работа 7
 ## Задание №1
 ### Составьте текстовый файл и положите его в одну директорию с программой на Python. Текстовый файл должен состоять минимум из двух строк.
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_7/theme_7/screen/lab7_1.png)
 ## Вывод
 Создал файл input.txt и записал текст.
 
@@ -36,7 +36,7 @@ f = open('input.txt', 'r')
 print(f.readline())
 f.close
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_7/theme_7/screen/lab7_2.png)
 ## Вывод
 Написал код, который выводит первую строку с помощью open/close.
 
@@ -47,7 +47,7 @@ f = open('input.txt', 'r')
 print(f.readlines())
 f.close
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_7/theme_7/screen/lab7_3.png)
 ## Вывод
 Написал код, который выводит все строки в массиве.
 
@@ -57,7 +57,7 @@ f.close
 with open('input.txt') as f:
     print(f.readlines())
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_7/theme_7/screen/lab7_4.png)
 ## Вывод
 Написал программу, который выводит все строки в массиве, с помощью конструкции with open().
 
@@ -68,7 +68,7 @@ with open('input.txt') as f:
     for line in f:
         print(line)
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_7/theme_7/screen/lab7_5.png)
 ## Вывод
 Написал программу, которая выводит каждую строку отдельно с помощью конструкции with open().
 
@@ -82,7 +82,7 @@ with open('input.txt', 'r') as f:
     result = f.readlines()
     print(result)
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_7/theme_7/screen/lab7_6.png)
 ## Вывод
 Написал программу, которая добавляет новую строку в файл input.txt.
 
@@ -95,7 +95,8 @@ with open('input.txt', 'w') as f:
         f.write('\nCycle run ' + line)
     print('Done!')
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_7/theme_7/screen/lab7_7.png)
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_7/theme_7/screen/lab7_7_txt.png)
 ## Вывод
 Добавил в файл слова, one, two, three c помощью write().
 
@@ -114,7 +115,7 @@ def print_docs(directory):
 
 print_docs('C:/Users/rahat/Desktop/php')
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_7/theme_7/screen/lab7_8.png)
 ## Вывод
 Написал программу, которая выводит в терминал все содержимое из директории с помощью функции print_docs(directory).
 
@@ -146,7 +147,8 @@ def longest_words(file):
     
 print(longest_words('input.txt'))
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_7/theme_7/screen/lab7_9_txt.png)
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_7/theme_7/screen/lab7_9.png)
 ## Вывод
 Написал программу, которая выводит максимально длинное слово из текста.
 
@@ -168,7 +170,8 @@ with open('rows_300.csv', 'w', encoding='utf-8', newline='') as f:
         writer.writerow([line, datetime.datetime.now().second, datetime.datetime.now().microsecond])
         time.sleep(0.01)
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_7/theme_7/screen/lab7_10.png)
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_7/theme_7/screen/lab7_10_csv.png)
 ## Вывод
 Написал программу, которая создает в csv файле столбцы с номером, секундой и микросекундой с остановкой скрипта 0.01 сек.
 
@@ -197,7 +200,8 @@ def count_words(file_path):
 
 count_words('sam7_1.txt')
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_7/theme_7/screen/sam7_1.png)
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_7/theme_7/screen/sam7_1_txt.png)
 ## Вывод
 В этом задании я написал программу на Python, которая считает количество слов в текстовом файле и определяет самое часто встречающееся слово. Я использовал библиотеку collections.Counter для вычисления частоты слов.
 
@@ -268,7 +272,10 @@ def main():
 if __name__ == '__main__':
     main()
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_7/theme_7/screen/sam7_2_1.png)
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_7/theme_7/screen/sam7_2_2.png)
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_7/theme_7/screen/sam7_2_3.png)
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_7/theme_7/screen/sam7_2_json.png)
 ## Вывод
 В этом задании я написал программу для учета расходов, позволяющую добавлять, сохранять и просматривать данные. Я использовал библиотеку json для хранения информации в файл и реализовал простой интерфейс для управления расходами через консоль.
 
@@ -306,7 +313,8 @@ def analyze_text(file_path):
 
 analyze_text('input1.txt')
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_7/theme_7/screen/sam7_3.png)
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_7/theme_7/screen/sam7_3_txt.png)
 ## Вывод
 В этом задании я написал программу для подсчета количества букв, слов и строк в файле с текстом на латинице. Я использовал методы для подсчета символов, разделения слов и подсчета строк, чтобы вывести статистику по содержимому файла.
 
@@ -350,7 +358,8 @@ def main():
 if __name__ == '__main__':
     main()
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_7/theme_7/screen/sam7_4.png)
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_7/theme_7/screen/sam7_4_txt.png)
 ## Вывод
 В этом задании я написал программу для замены запрещенных слов на звездочки в предложении, независимо от регистра и их местоположения в тексте. Я использовал регулярные выражения для поиска и замены запрещенных слов, загруженных из файла, и обеспечил точную замену даже в случае частичного совпадения.
 
@@ -382,7 +391,9 @@ def count_word(input_file, output_file):
 
 count_word('input4.txt', 'output.txt')
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_7/theme_7/screen/sam7_5.png)
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_7/theme_7/screen/sam7_5_txt_input.png)
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_7/theme_7/screen/sam7_5_txt_output.png)
 ## Вывод
 В этом задании я написал программу, которая считывает текст из файла, подсчитывает количество вхождений каждого слова без учета регистра и сохраняет результат в файл. Я использовал библиотеку collections.Counter для подсчета и регулярные выражения для обработки текста.
 
