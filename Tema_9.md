@@ -36,7 +36,7 @@ print(person1.name)
 print(person2.name)
 person2.surname = 'Петров'
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_9/theme_9/screen/lab9_1.png)
 ## Вывод
 При вызове фамилии выводится ошибка: AttributeError: 'Ivan' object has no attribute 'surname'. Это связано с тем, что использование __slots__ ограничивает объект только теми атрибутами, которые явно указаны в списке. В коде класс Ivan ограничен атрибутом name, попытка добавить новый атрибут surname вызовет исключение.
 
@@ -63,7 +63,7 @@ iceream.compostion()
 iceream = Icecream(5)
 iceream.compostion()
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_9/theme_9/screen/lab9_2.png)
 ## Вывод
 В ходе выполнения задания был разработан класс Icecream, который позволяет реализовать функциональность для отслеживания наличия топпинга в мороженом. Класс успешно проверяет тип ингредиента.
 
@@ -97,7 +97,7 @@ print(obj.get_value())
 obj.del_value()
 print(obj.get_value())
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_9/theme_9/screen/lab9_3.png)
 ## Вывод
 Ошибка возникает из-за того, что после вызова метода del_value(), атрибут _value был удалён из объекта, и когда программа пытается снова вызвать метод get_value() и получить доступ к несуществующему атрибуту _value, это приводит к ошибке AttributeError.
 
@@ -120,7 +120,7 @@ print(f"Dog is {dog.className}, but they say {dog.sounds}")
 cat = Cat()
 print(f"Cat is {cat.className}, but they say {cat.sounds}")
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_9/theme_9/screen/lab9_4.png)
 ## Вывод
 В ходе выполнения задания была разработана иерархия классов, демонстрирующая концепцию наследования в объектно-ориентированном программировании. Созданы три класса: Mammal, Dog и Cat, где Dog и Cat наследуют свойства от класса Mammal, что позволяет компьютеру понимать, что кошки и собаки являются млекопитающими.
 
@@ -145,7 +145,7 @@ greet(ivan)
 john = English()
 greet(john)
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_9/theme_9/screen/lab9_5.png)
 ## Вывод
 В рамках выполнения задания была реализована программа, демонстрирующая полиморфизм с помощью классов, отвечающих за приветствие на разных языках. Созданы два класса: Russian и English, каждый из которых имеет статический метод greeting(), выводящий соответствующее приветствие.
 
@@ -293,10 +293,10 @@ for _ in range(3):
 gardener.harvest()  # Собираем урожай
 ```
 
-### ![Результат]()
-### ![Результат]()
-### ![Результат]()
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_9/theme_9/screen/sam9_1.png)
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_9/theme_9/screen/sam9_1_1.png)
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_9/theme_9/screen/sam9_1_2.png)
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_9/theme_9/screen/sam9_1_3.png)
 ## Вывод
 В ходе выполнения задания была разработана программа, моделирующая процесс ухода за помидорами с использованием объектно-ориентированного подхода. Созданы три класса: Tomato, TomatoBush и Gardener, каждый из которых выполняет свои функции и взаимодействует друг с другом.
 
