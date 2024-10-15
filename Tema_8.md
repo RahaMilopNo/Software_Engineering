@@ -27,7 +27,7 @@ class Car:  # Определение класса
 
 my_car = Car("Toyota", "Corolla")  # Создание объекта my_car 
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_8/theme_8/screen/lab8_1.png)
 ## Вывод
 В этом задании я создал класс Car с атрибутами make и model. Метод-конструктор инициализирует эти атрибуты при создании объекта. Написал комментарии к коду.
 
@@ -45,7 +45,7 @@ class Car:  # Определение класса
 my_car = Car("Toyota", "Corolla")  # Создание объекта my_car 
 my_car.drive()  # Вызов метода drive для объекта my_car
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_8/theme_8/screen/lab8_2.png)
 ## Вывод
 В этом задании я расширил класс Car, добавив метод drive(), который выводит информацию о марке и модели автомобиля. Написал комментарии к коду.
 
@@ -75,7 +75,7 @@ my_electric_car = ElectricCar("Tesla", "Model S", 75)  # Создание объ
 my_electric_car.drive()  # Вызов унаследованного метода drive
 my_electric_car.charge()  # Вызов метода charge
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_8/theme_8/screen/lab8_3.png)
 ## Вывод
 В этом задании я создал новый класс ElectricCar, который наследует класс Car. В класс добавлен атрибут battery_capacity и метод charge(), который выводит информацию о зарядке автомобиля. Написал комментарии к коду.
 
@@ -94,7 +94,7 @@ my_car = Car("Toyota", "Corolla")  # Создание объекта my_car
 print(my_car.make) # Вывод на экран марки машины
 my_car.drive() # Вызов метода drive для объекта my_car
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_8/theme_8/screen/lab8_4.png)
 ## Вывод
 В этом задании я реализовал инкапсуляцию в классе Car, сделав атрибут производителя защищённым  и атрибут модели приватным. Написал комментарии к коду.
 
@@ -127,7 +127,7 @@ circle = Circle(7)  # Круг
 print(f"Area of the rectangle: {rect.area()}")  # Вывод прямоугольника
 print(f"Area of the circle: {circle.area()}")  # Вывод круга
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_8/theme_8/screen/lab8_5.png)
 ## Вывод
 В этом задании я реализовал полиморфизм с помощью базового класса Shape и его наследников — классов Rectangle и Circle. Написал комментарии к коду.
 
@@ -150,7 +150,7 @@ my_book = Book("J.K. Rowling", "Harry Potter and the Sorcerer's Stone", 309)
 reading_hours = my_book.reading_time(50)  
 print(f"Time to read '{my_book.title}' by {my_book.author}: {reading_hours:.2f} hours") 
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_8/theme_8/screen/sam8_1.png)
 ## Вывод
 Класс Book описывает книгу с атрибутами: автор, название и количество страниц. Метод reading_time рассчитывает время для прочтения книги, исходя из переданной скорости чтения.
 
@@ -183,7 +183,7 @@ print(my_book.short_description())
 print(my_book.recommend("Fantasy"))  
 print(my_book.recommend("Science Fiction")) 
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_8/theme_8/screen/sam8_2.png)
 ## Вывод
 #### Атрибуты:
 - year - год издания книги.
@@ -227,7 +227,8 @@ print(my_ebook.ebook_description())
 print(my_ebook.compatible("EPUB"))  
 print(my_ebook.compatible("PDF")) 
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_8/theme_8/screen/sam8_3_1.png)
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_8/theme_8/screen/sam8_3_2.png)
 ## Вывод
 Добавил класс EBook, который наследует атрибуты и методы из базового класса Book.
 
@@ -280,7 +281,8 @@ my_ebook.set_file_format("PDF")
 print(f"Updated file format: {my_ebook.get_file_format()}")  
 print(my_ebook.ebook_description())
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_8/theme_8/screen/sam8_4_1.png)
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_8/theme_8/screen/sam8_4_2.png)
 ## Вывод
 Приватные атрибуты __file_size и __file_format теперь недоступны напрямую вне класса, что защищает их от некорректного изменения. get_file_size() и get_file_format() позволяют безопасно получить значение приватных атрибутов. set_file_size(new_size) и set_file_format(new_format) позволяют изменить эти атрибуты, проверяя, чтобы новые значения были корректными.
 
@@ -324,7 +326,8 @@ items = [
 for item in items:
     print(item.short_description()) 
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_8/theme_8/screen/sam8_5_1.png)
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_8/theme_8/screen/sam8_5_2.png)
 ## Вывод
 - Новый класс Magazine наследует от класса Book.
 - Включает новый атрибут issue_number, который обозначает номер выпуска.
