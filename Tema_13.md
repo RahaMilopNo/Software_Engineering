@@ -36,7 +36,7 @@ matrix[2, 3] = 4
 
 print(matrix)
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_13/theme_13/screen/lab13_1.png)
 ## Вывод
 В это задаче я изучили работу с матрицами, используя библиотеку NumPy.
 
@@ -53,7 +53,7 @@ vertical_vector = matrix.reshape(-1, 1)
 
 print(vertical_vector)
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_13/theme_13/screen/lab13_2.png)
 ## Вывод
 В данной задаче я преобразовал матрицу из предыдущего задания в вертикальный вектор.
 
@@ -102,7 +102,7 @@ else:
     result = np.dot(X, Y)
     print(result)
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_13/theme_13/screen/lab13_3.png)
 ## Вывод
 В данной задаче изучил основные операции с матрицами с использованием библиотеки NumPy.
 
@@ -123,7 +123,7 @@ mean_values = np.mean(data, axis=0)
 
 print(mean_values)
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_13/theme_13/screen/lab13_4.png)
 ## Вывод
 В данном задании реализовал программу для считывания данных из CSV-файла и вычисления средних значений по столбцам.
 
@@ -176,7 +176,8 @@ print(f"Средние баллы по предметам: {average_subject_scor
 print(f"Предмет с самым высоким средним баллом: {highest_avg_subject[0]} (средний балл: {highest_avg_subject[1]:.2f})")
 print(f"Количество студентов с оценкой выше 80: {students_above_80}")
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_13/theme_13/screen/lab13_5_1.png)
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_13/theme_13/screen/lab13_5_2.png)
 ## Вывод
 В данном задании реализовал программу для работы с данными о оценках студентов.
 
