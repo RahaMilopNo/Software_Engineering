@@ -31,7 +31,7 @@ df = pd.read_csv('googleplaystore.csv')
 
 print(df.head())
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_12/theme_12/screen/lab12_1.png)
 ## Вывод
 Загрузил датафрейм в переменную df и отобразил первые 5 строк.
 
@@ -41,7 +41,7 @@ print(df.head())
 num_rows, num_columns = df.shape
 print(f'Количество строк: {num_rows}, Количество столбцов: {num_columns}')
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_12/theme_12/screen/lab12_2.png)
 ## Вывод
 Отобразил количесто строк и стобцов с помощью df.shape
 
@@ -53,7 +53,7 @@ df.info()
 missing_values = df.isnull().sum()
 print(missing_values[missing_values > 0])
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_12/theme_12/screen/lab12_3.png)
 ## Вывод
 Вывел основную информацию с помощью метода info()
 
@@ -67,7 +67,7 @@ df['Android Ver'] = df['Android Ver'].fillna(df['Android Ver'].mode()[0])
 
 print(f'Количество строк после замены пропусков: {df.shape[0]}')
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_12/theme_12/screen/lab12_4.png)
 ## Вывод
 Для числовых столбцов замена пропусков на среднее или медиану помогает сохранить статистические свойства набора данных. Для категориальных столбцов использование моды позволяет заполнить наиболее распространенной категорией, сохраняя распределение.
 
@@ -77,7 +77,7 @@ print(f'Количество строк после замены пропуско
 missing_values_after = df.isnull().sum()
 print(missing_values_after[missing_values_after > 0])
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_12/theme_12/screen/lab12_5.png)
 ## Вывод
 Проверил нет ли пропусков, после обработки 0 пропусков в столбцах
 
@@ -91,7 +91,7 @@ max_price = df['Price'].max()
 
 print(f'Минимальная цена: {min_price}, Максимальная цена: {max_price}')
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_12/theme_12/screen/lab12_6.png)
 ## Вывод
 Удалил символы и привел столбец к числовому формату.
 
@@ -119,7 +119,7 @@ reviews_mean = df['Reviews'].mean()
 print(f'Медиана Ratings: {rating_median}, Среднее Ratings: {rating_mean}')
 print(f'Медиана Reviews: {reviews_median}, Среднее Reviews: {reviews_mean}')
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_12/theme_12/screen/lab12_7.png)
 ## Вывод
 Преобразовал строки в числовые значения и вычислил медиану с средней.
 
@@ -129,7 +129,7 @@ print(f'Медиана Reviews: {reviews_median}, Среднее Reviews: {revie
 unique_genres = df['Genres'].unique()
 print(unique_genres)
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_12/theme_12/screen/lab12_8.png)
 ## Вывод
 Использовал встроенную функцию unique()
 
@@ -140,7 +140,7 @@ grouped_df = df.groupby('Genres')['Rating'].agg(['mean', 'median']).reset_index(
 grouped_df.columns = ['Genres', 'Average Rating', 'Median Rating']
 print(grouped_df)
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_12/theme_12/screen/lab12_9.png)
 ## Вывод
 В результате получил таблицу, которая позволит быстро сравнить средние и медианные рейтинги различных жанров приложений в наборе данных. 
 
@@ -150,7 +150,7 @@ print(grouped_df)
 high_rated_genres = grouped_df[grouped_df['Median Rating'] > 4.5]
 print(high_rated_genres)
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_12/theme_12/screen/lab12_10.png)
 ## Вывод
 Теперь можно определить, какие жанры приложений имеют высокий медианный рейтинг, что может указывать на их популярность.
 
@@ -165,7 +165,7 @@ df = df.drop_duplicates()
 num_duplicates_after = df.duplicated().sum()
 print(f'Количество дубликатов после удаления: {num_duplicates_after}')
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_12/theme_12/screen/lab12_11.png)
 ## Вывод
 Посчитал количество дубликатов в основном датафрейме, далее удалил с помощью df.drop_duplicates().
 
@@ -177,7 +177,7 @@ genre_counts = df['Genres'].value_counts()
 top_10_genres = genre_counts.head(10)
 print(top_10_genres)
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_12/theme_12/screen/lab12_12.png)
 ## Вывод
 С помощью value_counts посчитал и далее вывел топ 10.
 
