@@ -24,7 +24,7 @@ numbers = [0, 1, 2, 3, 4, 5]
 for item in numbers:
     print(item)
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_11/theme_11/screen/lab11_1.png)
 ## Вывод
 В первом задании была представлена простая реализация итератора, который позволяет проходить по элементам списка с использованием цикла for.
 
@@ -49,7 +49,7 @@ if __name__ == '__main__':
     for i in counter:
         print(i)
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_11/theme_11/screen/lab11_2.png)
 ## Вывод
 Во втором задании представлен класс итератора CountDown, который позволяет гибко настраивать обратный счет. 
 
@@ -66,7 +66,7 @@ print('iter(a) - ', iter(a))
 for i in a:
     print(i)
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_11/theme_11/screen/lab11_3.png)
 ## Вывод
 В третьем задании продемонстрирован генератор списка, который создает список квадратов чисел от 1 до 4.
 
@@ -83,7 +83,7 @@ print('second')
 for i in b:
     print(i)
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_11/theme_11/screen/lab11_4.png)
 ## Вывод
 В четвертом задании представлены выражения-генераторы, которые создают генератор для квадратов чисел от 1 до 4.
 
@@ -100,7 +100,7 @@ if __name__ == '__main__':
     for i in counter:
         print(i)
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_11/theme_11/screen/lab11_5.png)
 ## Вывод
 В пятом задании представлен генератор countdown, который выполняет функцию обратного счета от заданного числа до нуля.
 
@@ -120,7 +120,7 @@ if __name__ == '__main__':
     fibonacci_numbers = list(fib(n))
     print(f"200-е число Фибоначчи: {fibonacci_numbers[-1]}")
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_11/theme_11/screen/sam11_1.png)
 ## Вывод
 В первом задании реализована функция fib(n), использующая генератор для вычисления чисел Фибоначчи до заданного значения n. С помощью инструкции yield функция последовательно возвращает числа, что позволяет избежать избыточного использования памяти.
 
@@ -142,7 +142,8 @@ if __name__ == '__main__':
     fibonacci_numbers = list(fib(n))
     print(f"200-е число Фибоначчи: {fibonacci_numbers[-1]}")
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_11/theme_11/screen/sam11_2.png)
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_11/theme_11/screen/sam11_2_fib.png)
 ## Вывод
 Во втором задании модифицирована предыдущая функция fib(n) для записи каждого числа Фибоначчи в файл fib.txt, где каждое число расположено на отдельной строке.
 
