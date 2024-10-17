@@ -33,7 +33,7 @@ def fibonacci(n):
 if __name__ == '__main__':
     print(fibonacci(100))
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_10/theme_10/screen/lab10_1.png)
 ## Вывод
 В этом задании я изучил применение декоратора @lru_cache для оптимизации вычисления чисел Фибоначчи. 
 
@@ -58,7 +58,7 @@ if __name__ == '__main__':
     personal_info('Александр', -5)
     personal_info('Петр', 138, 15, 48, 2)
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_10/theme_10/screen/lab10_2.png)
 ## Вывод
 В этом задании я изучил создание декоратора для проверки корректности входных данных.
 
@@ -81,7 +81,7 @@ def data(*args):
 if __name__ == '__main__':
     data([1, 15, 'Hello', 'i', 'try', 'to', 'crash', 'your', 'site', 38, 45])
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_10/theme_10/screen/lab10_3.png)
 ## Вывод
 В этом задании я изучил обработку исключений для защиты функции от неверных типов данных. 
 
@@ -101,7 +101,7 @@ if __name__ == '__main__':
     name = '12345678910'
     check_name(name)
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_10/theme_10/screen/lab10_4.png)
 ## Вывод
 В этом задании я изучил создание пользовательского исключения для проверки длины имени при регистрации. Если длина строки превышает 10 символов, выбрасывается исключение NegativeValueException. 
 
@@ -127,7 +127,7 @@ if __name__ == '__main__':
     site()
     print('>> Сайт выключен')
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_10/theme_10/screen/lab10_5.png)
 ## Вывод
 В этом задании я изучил создание простого логгера с помощью класса-декоратора. Метод __init__() инициализирует декоратор, а метод __call__() выводит логи до и после выполнения функции.
 
@@ -161,7 +161,7 @@ def fibonacci():
 if __name__ == '__main__':
     fibonacci()
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_10/theme_10/screen/sam10_1.png)
 ## Вывод
 В этом задании я изучил создание декоратора для измерения времени выполнения функции. Декоратор time_decorator использует модуль time для определения времени начала и конца выполнения функции, после чего выводит общее время исполнения.
 
@@ -185,9 +185,9 @@ if __name__ == '__main__':
     read_file('empty_file.txt')
     read_file('info_file.txt')
 ```
-### ![Результат]()
-### ![Результат]()
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_10/theme_10/screen/sam10_2.png)
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_10/theme_10/screen/sam10_2_empty.png)
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_10/theme_10/screen/sam10_2_info.png)
 ## Вывод
 В этом задании я изучил обработку исключений при чтении данных из файлов. 
 
@@ -210,7 +210,7 @@ if __name__ == '__main__':
     add_two("abc")  
     add_two([1, 2]) 
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_10/theme_10/screen/sam10_3.png)
 ## Вывод
 В этом задании я изучил обработку исключений при сложении числа с введённым пользователем значением.
 
@@ -250,7 +250,8 @@ if __name__ == '__main__':
     multiply(2, 3)   
     multiply(5, 6) 
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_10/theme_10/screen/sam10_4_1.png)
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_10/theme_10/screen/sam10_4_2.png)
 ## Вывод
 В этом задании я создал собственный декоратор FunctionCallTracker, который отслеживает количество вызовов функций.
 
@@ -297,7 +298,8 @@ if __name__ == '__main__':
     except ValueOutOfRangeError as e:
         print(e)
 ```
-### ![Результат]()
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_10/theme_10/screen/sam10_5_1.png)
+### ![Результат](https://github.com/RahaMilopNo/Software_Engineering/blob/Tema_10/theme_10/screen/sam10_5_2.png)
 ## Вывод
 В этом задании я создал собственное исключение ValueOutOfRangeError, которое используется для проверки значений на выход за пределы допустимого диапазона.
 
